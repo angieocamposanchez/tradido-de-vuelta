@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #EBE76C;
+  align-items: center;
+}
+header #btn-menu {
+  display: none;
+}
+header label {
+  display: none;
+}
+header label:hover {
+  cursor: pointer;
+}
+header nav ul {
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+header nav li {
+  margin-right: 20px;
+}
+header nav a {
+  text-decoration: none;
+  margin: 1rem;
+  text-transform: capitalize;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+header nav a img {
+  width: 160px;
+  padding-right: 220px;
+}
+
+main section .bienvenida {
+  font-size: 2em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

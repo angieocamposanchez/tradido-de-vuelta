@@ -1,47 +1,18 @@
-header {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
-  background-color: #EBE76C;
-  align-items: center;
-}
-header #btn-menu {
-  display: none;
-}
-header label {
-  display: none;
-}
-header label:hover {
-  cursor: pointer;
-}
-header nav ul {
-  list-style-type: none;
-  justify-content: space-evenly;
-  align-items: center;
-  display: flex;
-}
-header nav li {
-  margin-right: 20px;
-}
-header nav a {
-  text-decoration: none;
-  margin: 1rem;
-  text-transform: capitalize;
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
-}
-header nav a img {
-  width: 160px;
-  padding-right: 220px;
-}
+/* Error: expected ":".
+ *   ,
+ * 7 |     ffamily: 'Lato', sans-serif,
+ *   |                                ^
+ *   '
+ *   scss/_variables.scss 7:32  @import
+ *   scss/main.scss 2:9         root stylesheet */
 
-main section .bienvenida {
-  font-size: 2em;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected \":\".\a   \2577 \a 7 \2502      ffamily: 'Lato', sans-serif,\a   \2502                                 ^\a   \2575 \a   scss/_variables.scss 7:32  @import\a   scss/main.scss 2:9         root stylesheet";
 }
-
-/*# sourceMappingURL=style.css.map */

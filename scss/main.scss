@@ -1,17 +1,8 @@
 // importar submodulo //
-@import "header";
+@import "variables";
+@import "globales";
+@import "header-footer";
+@import "contenidos";
 
 
-// main del index //
-main{
-    section{
-        .bienvenida{
-            font-size: 2em;
-            display: flex;
-            justify-content: space-around;
-            flex-direction: row;
-            align-items: center;
-        }
-        
-    }
-}
+

@@ -7,14 +7,18 @@
         flex-direction: row;
         align-items: center;
         background-color: $primer-color;
-        article h3{
-            font-family: map-get($subtitle, ffamily);
-            font-size: map-get($subtitle, fzise);
-            margin-bottom: map-get($map: $subtitle, $key:margin-bottom);
-            span{
-                color: map-get($map: span, $key: color );
-                font-weight: map-get($span, $key: fweight);
-            }
-        }
     }
 }
+
+
+
+// posibilidad de hacer uso del map get pero me arroja error
+// article h3{
+//     font-family: map-get($subtitle, ffamily);
+//     font-size: map-get($subtitle, fzise);
+//     margin-bottom: map-get($map: $subtitle, $key:margin-bottom);
+//     span{
+//         color: map-get($map: span, $key: color );
+//         font-weight: map-get($span, $key: fweight);
+//     }
+// }

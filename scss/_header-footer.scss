@@ -1,4 +1,5 @@
-//header 
+
+/*header*/
 header{
     display: flex;
     justify-content: space-evenly;
@@ -40,5 +41,35 @@ header{
 }
 
 
+/*footer*/
 
-// footer
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: $cuarto-color;
+    div a img{
+        width: 160px;
+        padding-right: 220px;
+    }
+    div.footer-aling{
+        align-items: flex-start;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    }
+    div.footer-aling{
+        align-items: flex-start;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    }
+    div.footer-aling{
+        align-items: flex-start;
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    }
+}

@@ -86,10 +86,10 @@ header a img{
 } */
 
 /* main */
-.titulo-centrado{
+/* .titulo-centrado{
     text-align: center;
     padding: 50px 0 50px 0;
-}
+} */
 /* contenedor para prendas*/
 .banner-row{  
     display: flex;

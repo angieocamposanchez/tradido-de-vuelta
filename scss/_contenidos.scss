@@ -7,10 +7,130 @@
         flex-direction: row;
         align-items: center;
         background-color: $primer-color;
+        article{
+            h3{
+                @include h3();
+            }
+            h1 {
+                @include h1();
+                span{
+                    @include span();
+                }
+            }
+        }
     }
 }
 
+div{
+    background-color: $segundo-color;
+    @include titulo-centrado();
+}
 
+section{
+    background-color: $segundo-color;
+    @include banner-row();
+    div{
+    @include prenda();
+    @include size-letter();
+    }
+    div{
+        @include prenda();
+        @include size-letter();
+        }
+}
+
+section{
+    background-color: $segundo-color;
+    div{
+        @include banner-row();
+        span h2{
+            @include h2();
+            @include span();
+        }
+    }
+}
+
+/*redes sociales*/
+section{
+    background-color: $tercer-color;
+    div{
+        @include titulo-centrado();
+        h3{
+            @include h3();
+        }
+    }
+    div{
+        @include banner-row();
+    }
+}
+
+section{
+    background-color: $tercer-color;
+    div{
+        @include titulo-centrado();
+        @include h3();
+    }
+    div{
+        @include parrafos();
+    }
+}
+
+/* por prenda */
+main section{
+    background-color: $segundo-color;
+    div{
+        @include titulo-centrado();
+        h1{
+            @include h1();
+            @include span();
+        }
+    }
+}
+
+section{
+    .prenda-descrip{  
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    div{
+        .name-price{
+            font-size: large;
+            font-family: 'Lato', sans-serif;
+            padding-right: 40px;
+            h3{
+                @include h3();
+            }
+            p{
+                @include parrafos();
+                @include span();
+            }
+            hr{
+                @include hr();
+            }
+            p{
+                @include parrafos();
+            }
+            hr{
+                @include hr();
+            }
+            p{
+                @include parrafos();
+                @include span();
+            }
+        }
+    }
+}
+
+/* sugerencia de prendas*/
+div{
+    background-color: $segundo-color;
+    @include titulo-centrado();
+    h2{
+        @include h2();
+    }
+}
 
 // posibilidad de hacer uso del map get pero me arroja error
 // article h3{

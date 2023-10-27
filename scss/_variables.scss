@@ -4,6 +4,59 @@ $segundo-color: #F0B86E;
 $tercer-color: #ED7B7B;
 $cuarto-color: #836096;
 
+@mixin h1(){
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+@mixin h2(){
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+@mixin h3(){
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+@mixin span(){
+    color: #836096;
+    font-weight: bold
+}
+@mixin titulo-centrado(){
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+@mixin banner-row(){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 0 20px 0;
+    align-items: center;
+}
+/*contenedor para prendas*/
+@mixin prenda(){
+    display: inline-block;
+    flex-direction: row;
+    margin: 20px 10px;
+    text-align: center;
+}
+@mixin size-letter(){
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+@mixin parrafos(){
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+@mixin hr(){
+    height: 3%;
+    background-color: black;
+}
+
 // $subtitle: (
 //     ffamily: 'Lato', sans-serif,
 //     fzise: 18px,

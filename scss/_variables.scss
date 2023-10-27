@@ -56,6 +56,27 @@ $cuarto-color: #836096;
     height: 3%;
     background-color: black;
 }
+@mixin button(){
+    background-color: #836096;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    color: antiquewhite;
+    font-weight: bold;
+    &:hover{
+        background-color: #F0B86E;
+    }
+}
+@mixin centrado(){
+        font-size: 1em;
+        justify-content: center;
+        padding: 10px;
+}
+@mixin contenedor-preguntas(){
+    margin: 10px 200px 10px 200px;
+} 
+
 
 // $subtitle: (
 //     ffamily: 'Lato', sans-serif,

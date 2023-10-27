@@ -1,3 +1,4 @@
+/* html index */
 //index 
 .main-index{
     .bienvenida{
@@ -50,7 +51,7 @@ section{
     }
 }
 
-/*redes sociales*/
+/*redes sociales index*/
 section{
     background-color: $tercer-color;
     div{
@@ -75,7 +76,7 @@ section{
     }
 }
 
-/* por prenda */
+/*  html por prenda */
 main section{
     background-color: $segundo-color;
     div{
@@ -119,6 +120,9 @@ section{
                 @include parrafos();
                 @include span();
             }
+            button{
+                @include button();
+            }
         }
     }
 }
@@ -131,6 +135,298 @@ div{
         @include h2();
     }
 }
+section{
+    background-color: $segundo-color;
+    @include banner-row();
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos();
+        }
+    }
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos();
+        }
+    }
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos();
+        }
+    }
+}
+
+/* html por categoría de prenda*/
+/*banner*/
+main{
+    section{
+        background-color: $segundo-color;
+        .banner-tienda{
+            padding: 120px;
+            background-image: url("../images/ropero.jpeg");
+            align-content: center;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            @include centrado();
+            h1{
+                @include h1();
+                p{
+                    @include parrafos();
+                }
+            }
+        }
+    }
+}
+section{
+    background-color: $segundo-color;
+    @include banner-row();
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos();
+        }
+    }
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos();
+        }
+    }
+}
+section{
+    background-color: $segundo-color;
+    @include banner-row();
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos();
+        }
+    }
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos();
+        }
+    }
+}
+section{
+    background-color: $segundo-color;
+    @include banner-row();
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos;
+        }
+    }
+    div{
+        @include prenda();
+        @include size-letter();
+        p{
+            @include parrafos();
+        }
+    }
+}
+
+/*html de ayuda*/
+main{
+    background-color: $segundo-color;
+    div{
+        @include titulo-centrado();
+        h1{
+            @include h1();
+        }
+    }
+    div{
+        @include contenedor-preguntas();
+        h2{
+            @include h2();
+        }
+        div{
+            .acordeon{
+                background-color: $segundo-color;
+                justify-content: center;
+                &:label{
+                    display: block;
+                    padding: 10px;
+                    background-color: $cuarto-color;
+                    color: whitesmoke;
+                    &:hover{
+                        background-color: $tercer-color;
+                    }
+                    p{
+                        @include parrafos();
+                        p:hover{
+                            background-color: $primer-color;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    background-color: $segundo-color;
+    div{
+        @include titulo-centrado();
+        h1{
+            @include h1();
+        }
+    }
+    div{
+        @include contenedor-preguntas();
+        h2{
+            @include h2();
+        }
+        div{
+            .acordeon{
+                background-color: $segundo-color;
+                justify-content: center;
+                &:label{
+                    display: block;
+                    padding: 10px;
+                    background-color: $cuarto-color;
+                    color: whitesmoke;
+                    &:hover{
+                        background-color: $tercer-color;
+                    }
+                    p{
+                        @include parrafos();
+                        p:hover{
+                            background-color: $primer-color;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    background-color: $segundo-color;
+    div{
+        @include titulo-centrado();
+        h1{
+            @include h1();
+        }
+    }
+    div{
+        @include contenedor-preguntas();
+        h2{
+            @include h2();
+        }
+        div{
+            .acordeon{
+                background-color: $segundo-color;
+                justify-content: center;
+                &:label{
+                    display: block;
+                    padding: 10px;
+                    background-color: $cuarto-color;
+                    color: whitesmoke;
+                    &:hover{
+                        background-color: $tercer-color;
+                    }
+                    p{
+                        @include parrafos();
+                        p:hover{
+                            background-color: $primer-color;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+section{
+    background-color: $tercer-color;
+    div{
+        @include titulo-centrado();
+        @include span();
+        h3{
+            @include h3();
+            @include span();
+        }
+        div{
+            .audiovisuales{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 50px;
+            }
+            iframe{
+                .margen{
+                    padding: 50px;
+                }
+            }
+            iframe{
+                .margen{
+                    padding: 50px;
+                }
+            }
+        }
+    }
+}
+
+/* html -acerca de-*/
+div{
+    background-color: $primer-color;
+    @include titulo-centrado();
+    
+    h1{
+        @include h1();
+        @include span();
+    }
+}
+main{
+    section{
+        background-color: $segundo-color;
+        @include titulo-centrado();
+        article{
+            @include h2();
+            @include parrafos();
+        }
+    }
+    section{
+        background-color: $tercer-color;
+        div{
+            @include h3();
+        }
+    }
+}
+
+ //formulario 
+section{
+    background-color: $tercer-color;
+    span{
+        button{
+            background-color: #836096;
+            border-radius: 5px;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+            color: antiquewhite;
+            font-weight: bold;
+            &:hover{
+                background-color: #F0B86E;
+            }
+        }
+    }
+}
+
+
+
+
+
 
 // posibilidad de hacer uso del map get pero me arroja error
 // article h3{

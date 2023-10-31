@@ -692,4 +692,126 @@ section span button:hover {
   background-color: #F0B86E;
 }
 
+/* media queries */
+@media screen and (max-width: 900px) {
+  header a img {
+    width: 120px;
+    padding-right: 100px;
+  }
+  .prenda-descrip {
+    justify-content: center;
+    padding: 10px;
+  }
+}
+/* mediaQ table peque */
+@media screen and (max-width: 767px) {
+  .display-no {
+    display: none;
+  }
+  .bienvenida {
+    font-size: 18px;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .parrafos {
+    padding: 0px 30px 40px 30px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: lighter;
+    padding-bottom: 50px;
+  }
+  footer div a img {
+    width: 130px;
+    padding-right: 120px;
+  }
+}
+/* celular */
+@media screen and (max-width: 766px) {
+  header a img {
+    width: 120px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  /* header */
+  header a img {
+    width: 120px;
+    padding-right: 110px;
+  }
+  nav ul {
+    list-style-type: none;
+    display: block;
+    flex-direction: column;
+  }
+  nav ul li {
+    padding-bottom: 15px;
+  }
+  header label {
+    display: block;
+    position: relative;
+  }
+  header label img {
+    width: 30px;
+  }
+  .menu {
+    position: absolute;
+    padding: 10px 0px 0px 10px;
+    background-color: #ED7B7B;
+    top: 100px;
+    right: 100px;
+    visibility: hidden;
+  }
+  #btn-menu:checked ~ .menu {
+    visibility: visible;
+  }
+  /* cuerpo */
+  .bienvenida {
+    font-size: 1em;
+  }
+  /* nuestros productos */
+  section div a img {
+    width: 200px;
+  }
+  .prenda {
+    display: block;
+    flex-direction: wrap;
+    text-align: center;
+  }
+  .banner-col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 50px 0px 50px;
+  }
+  /* footer */
+  footer div a img {
+    display: none;
+  }
+  .footer-align {
+    align-items: flex-start;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+  }
+  /* acerca */
+  .centrado {
+    font-size: 1em;
+    justify-content: center;
+    padding: 10px;
+  }
+  .contenedor-preguntas {
+    margin: 10px 5px 10px 5px;
+  }
+  div iframe {
+    width: 70%;
+  }
+  .preda-mobile {
+    width: 94%;
+  }
+  .centrado-mobile {
+    text-align: center;
+    padding: 5px 0 5px 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

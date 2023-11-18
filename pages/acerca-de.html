@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- meta para seo -->
-    <meta name="keywords" content="Ropa de calidad usada, Compra responsable de ropa, Vestuario sin etiquetas de género">
-    <meta name="description" content="Descubre quiénes somos y por qué amamos la moda sin género. Aprende sobre nuestra misión y valores en nuestra página 'Acerca de nosotros'">
+    <meta name="keywords"
+        content="Ropa de calidad usada, Compra responsable de ropa, Vestuario sin etiquetas de género">
+    <meta name="description"
+        content="Descubre quiénes somos y por qué amamos la moda sin género. Aprende sobre nuestra misión y valores en nuestra página 'Acerca de nosotros'">
     <link rel="icon" href="../images/logo-tienda.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;1,6..12,600;1,6..12,900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;1,6..12,600;1,6..12,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="../styles/style.css"> -->
     <link rel="stylesheet" href="../css/style.css">
     <title>Traído de vuelta| Ropa de segunda| Todos sobre moda circular</title>
 </head>
+
 <body>
 
     <header>
@@ -22,7 +29,7 @@
         <nav class="menu">
             <ul>
                 <li>
-                    <a href="../index.html">Home</a>
+                    <a href="../index.html">Inicio</a>
                 </li>
                 <li>
                     <a href="./acerca-de.html">Acerca</a>
@@ -37,13 +44,13 @@
                     <a href="#">Mi carro</a>
                 </li>
             </ul>
-        </nav>  
+        </nav>
     </header>
 
 
     <div class="primer-color titulo-centrado">
         <h1>Bienvenidos a <span>Traído de vuelta</span> <br> Ropa de segunda</h1>
-    </div>                
+    </div>
 
     <!-- párrafo -->
     <main>
@@ -51,7 +58,9 @@
             <article>
                 <h2>Misión</h2>
                 <br>
-                <p>Traído de vuelta busca promover la moda sostenible y circular con el fin de reducir el impacto ambiental de la industria de la moda <br>al ofrecer una alternativa atractiva y asequible a la compra de ropa.</p>
+                <p>Traído de vuelta busca promover la moda sostenible y circular con el fin de reducir el impacto
+                    ambiental de la industria de la moda <br>al ofrecer una alternativa atractiva y asequible a la
+                    compra de ropa.</p>
             </article>
             <br>
         </section>
@@ -65,133 +74,136 @@
             <br>
         </section>
     </main>
-    
-        <!-- formulario hecho por mi-->
-        <section class="tercer-color">
-            <span>
-                <form action="">
-                    <div>
-                        <label for="nombre">Nombre de usuario</label>
-                        <input type="text" name="usuario" placeholder="nombre apellido" required>
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="" placeholder="perez@tucorreo.com" required>
-                    </div>
-                    <div>
-                        <label for="password">Contraseña</label>
-                        <input type="password" placeholder="mayor a ocho caracteres">
-                    </div>
-                    <div>
-                        <label for="informacion">Deseo recibir información y descuentos a mi correo</label>
-                        <label for="informacion">si</label>
-                        <input type="radio" name="informacion" value="si">
-                        <label for="informacion">no</label>
-                        <input type="radio" name="informacion" value="no">
-                    </div>
-                    <button type="button" class="btn btn-outline-warning">Enviar</button>
-                </form>
-            </span>
-        </section>
+
+    <!-- formulario hecho por mi-->
+    <section class="tercer-color">
+        <span>
+            <form action="">
+                <div>
+                    <label for="nombre">Nombre de usuario</label>
+                    <input type="text" name="usuario" id="nombre" placeholder="nombre apellido" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="perez@tucorreo.com" required>
+                </div>
+                <div>
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" placeholder="mayor a ocho caracteres">
+                </div>
+                <div>
+                    <label for="informacion">Deseo recibir información y descuentos a mi correo</label>
+                    <label for="informacion" id="informacion">si</label>
+                    <input type="radio" name="informacion" value="si">
+                    <label for="informacion" id="informacion">no</label>
+                    <input type="radio" name="informacion" value="no">
+                </div>
+                <button type="submit" class="btn btn-outline-warning">Enviar</button>
+            </form>
+        </span>
+    </section>
     <section class="cuarto-color">
 
-<!-- formulario adjunto por bootstrap -->
-<br>
-<div class="container col-sm-12 col-md-6">
-    <form>
-    <div class="row mb-3">
-        <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre y apellido</label>
-        <div class="col-sm-10">
-        <input type="text" class="form-control" id="inputEmail3">
+        <!-- formulario adjunto por bootstrap -->
+        <br>
+        <div class="container col-sm-12 col-md-6">
+            <form>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre y apellido</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputEmail3">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3">
+                    </div>
+                </div>
+                <fieldset class="row mb-3">
+                    <legend class="col-form-label col-sm-2 pt-0">Deseo resibir informacion y descuentos</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="si"
+                                checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                si
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="no">
+                            <label class="form-check-label" for="gridRadios2">
+                                no
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
         </div>
-    </div>
-    <div class="row mb-3">
-        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-        <div class="col-sm-10">
-        <input type="email" class="form-control" id="inputEmail3">
+        <div class="conteainer d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
-    </div>
-    <div class="row mb-3">
-        <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
-        <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword3">
+        </form>
         </div>
-    </div>
-    <fieldset class="row mb-3">
-        <legend class="col-form-label col-sm-2 pt-0">Deseo resibir informacion y descuentos</legend>
-        <div class="col-sm-10">
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="si" checked>
-            <label class="form-check-label" for="gridRadios1">
-            si
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="no">
-            <label class="form-check-label" for="gridRadios2">
-            no
-            </label>
-        </div>
-        </div>
-    </fieldset>
-    </div>
-    <div class="conteainer d-flex justify-content-center">
-        <button type="submit" class="btn btn-primary">Enviar</button>
-    </div>
-    </form>
-</div>
 
 
-    <!-- acá iniciamos footer -->
-    <footer class="cuarto-color">
-        <div>
-            <a href="../index.html"><img src="../images/traido-de-vuelta-logotipo.png" alt="logo traído de vuelta"></a>
-        </div>
-        <div class="footer-align">
-            <ul>
-                <li>Menú</li> 
-                <br>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./acerca-de.html">Acerca</a>
-                </li>
-                <li>
-                    <a href="./por-categoria.html">Tienda</a>
-                </li>
-                <li>
-                    <a href="./ayuda.html">Ayuda</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-align">
-            <ul>
-                <li>Más sobre</li>
-                <br>
-                <li>Equipo</li>
-                <li>Historia</li>
-                <li>Redux</li>
-            </ul>
-        </div>
-        <div class="footer-align">
-            <ul>
-                <li>Encuéntranos</li>
-                <br>
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank">facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com" target="_blank">instagram</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com" target="_blank">youtube</a>
-                </li>
-                <li>
-                    <a href="https://www.tiktok.com/" target="_blank">tiktok</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
+        <!-- acá iniciamos footer -->
+        <footer class="cuarto-color">
+            <div>
+                <a href="../index.html"><img src="../images/traido-de-vuelta-logotipo.png"
+                        alt="logo traído de vuelta"></a>
+            </div>
+            <div class="footer-align">
+                <ul>
+                    <li>Menú</li>
+                    <br>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./acerca-de.html">Acerca</a>
+                    </li>
+                    <li>
+                        <a href="./por-categoria.html">Tienda</a>
+                    </li>
+                    <li>
+                        <a href="./ayuda.html">Ayuda</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-align">
+                <ul>
+                    <li>Más sobre</li>
+                    <br>
+                    <li>Equipo</li>
+                    <li>Historia</li>
+                    <li>Redux</li>
+                </ul>
+            </div>
+            <div class="footer-align">
+                <ul>
+                    <li>Encuéntranos</li>
+                    <br>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">youtube</a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/" target="_blank">tiktok</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
 </body>
-</html> 
+
+</html>
